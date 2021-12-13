@@ -1,11 +1,10 @@
 export class Ingredient {
   name: string;
-  description: string;
-  imagePath: string;
+  amount: number;
 
-  constructor(name: string, description: string, imagePath: string) {
+
+  constructor(name: string, amount: number) {
     this.name = name
-    this.description = description
-    this.imagePath = imagePath
+    this.amount = amount
   }
-  }
+}
