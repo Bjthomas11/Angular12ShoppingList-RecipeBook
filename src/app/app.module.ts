@@ -13,6 +13,7 @@ import { HeaderComponent } from './header/header.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
+import { DropdownDirective } from '../shared/dropdown.directive';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import {MatIconModule} from '@angular/material/icon';
     RecipeDetailComponent,
     HeaderComponent,
     RecipesComponent,
+    DropdownDirective,
   ],
   imports: [
     BrowserModule,
