@@ -13,4 +13,5 @@ export class IngredientsService {
   getIngredients(){
     return this.http.get(`${this.apiURL}`)
   }
+
 }
