@@ -7,7 +7,7 @@ import { Recipe } from 'src/models/recipe';
   styleUrls: ['./recipe-detail.component.css']
 })
 export class RecipeDetailComponent implements OnInit {
-  @Input() recipe: Recipe;
+  @Input() singleRecipe: Recipe;
 
   constructor() { }
 

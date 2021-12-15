@@ -1,0 +1,8 @@
+{
+  "recipes": [
+    { "id": 1, "name": "Recipe 1", "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quos!", "imagePath": "https://cdn.loveandlemons.com/wp-content/uploads/2020/03/bean-recipes-1.jpg" },
+    { "id": 2, "name": "Recipe 2", "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quos!", "imagePath": "https://cdn.loveandlemons.com/wp-content/uploads/2020/03/bean-recipes-1.jpg" },
+    { "id": 3, "name": "Recipe 3", "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quos!", "imagePath": "https://cdn.loveandlemons.com/wp-content/uploads/2020/03/bean-recipes-1.jpg" }
+  ]
+}
+
