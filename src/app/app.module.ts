@@ -14,6 +14,7 @@ import { RecipesComponent } from './recipes/recipes.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import { DropdownDirective } from '../shared/dropdown.directive';
+import { IngredientsService } from 'src/services/ingredients.service';
 
 
 @NgModule({
@@ -36,7 +37,7 @@ import { DropdownDirective } from '../shared/dropdown.directive';
     MatIconModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [IngredientsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
